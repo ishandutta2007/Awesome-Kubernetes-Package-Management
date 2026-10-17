@@ -42,21 +42,21 @@ Contributions welcome! Open an PR to add/update entries. Keep descriptions factu
 
 ## 📑 Table of Contents
 
-- 💼 [SaaS/Hosted Platforms](#saas-hosted-platforms)
+- 💼 [SaaS/Hosted Platforms](#-saashosted-platforms)
 
-  - 📊 [Sector Overview & Market Dynamics](#sector-overview--market-dynamics)
+  - 📊 [Sector Overview & Market Dynamics](#-sector-overview--market-dynamics)
 
-- 🌟 [Open-Source GitHub Projects](#open-source-github-projects)
+- 🌟 [Open-Source GitHub Projects](#-open-source-github-projects)
 
-- ❓ [Frequently Asked Questions](#frequently-asked-questions)
+- ❓ [Frequently Asked Questions](#-frequently-asked-questions)
 
-- 🤝 [How to Contribute](#how-to-contribute)
+- 🤝 [How to Contribute](#-how-to-contribute)
 
-- ⚠️ [Disclaimer](#disclaimer)
+- ⚠️ [Disclaimer](#-disclaimer)
 
-- 📈 [Star History](#star-history)
+- 📈 [Star History](#-star-history)
 
-- 🙏 [Support](#support)
+- 🙏 [Support](#-support)
 
 
 
@@ -202,10 +202,10 @@ Helm is the de facto standard for third-party packages (30,000+ stars), Kustomiz
 Helm renders templates from `values.yaml`, Kustomize patches base YAML with overlays, and Argo CD or Flux continuously reconcile desired state from Git: Helm *installs* packages, Kustomize *customises* them, GitOps tools *deliver and keep* them running.
 
 **❓ Are there free Kubernetes deployment tools?**  
-Yes — Helm, Kustomize, Argo CD, Flux, Skaffold, Tilt, Kompose, Carvel, Timoni, Glasskube and ORAS are all free and open source. The [SaaS table](#saas-hosted-platforms) above lists the managed alternatives with exact starting prices and free-tier limits (for example Devtron's free-forever 50-vCPU plan and Octopus Deploy's free 10-project tier).
+Yes — Helm, Kustomize, Argo CD, Flux, Skaffold, Tilt, Kompose, Carvel, Timoni, Glasskube and ORAS are all free and open source. The [SaaS table](#-saashosted-platforms) above lists the managed alternatives with exact starting prices and free-tier limits (for example Devtron's free-forever 50-vCPU plan and Octopus Deploy's free 10-project tier).
 
 **❓ How do I add a Kubernetes tool to this list?**  
-Open a PR — see [How to Contribute](#how-to-contribute).
+Open a PR — see [How to Contribute](#-how-to-contribute).
 
 
 
@@ -227,7 +227,7 @@ Star the repo if you find it useful!
 
 
 
-## ⚠️ Disclaimer
+## ⚠ Disclaimer
 
 
 
