@@ -42,53 +42,16 @@ Contributions welcome! Open an PR to add/update entries. Keep descriptions factu
 
 ## SaaS/Hosted Platforms
 
-
-
-- **[Argo CD](https://argo-cd.readthedocs.io/)**  
-
-  Declarative GitOps continuous delivery tool for Kubernetes; the de facto standard for GitOps-based application deployment with a strong UI and multi-cluster support .
-
-
-
-- **[Flux CD](https://fluxcd.io/)**  
-
-  GitOps toolkit from the CNCF with a modular controller-based architecture; the original GitOps operator and direct competitor to Argo CD .
-
-
-
-- **[Devtron](https://devtron.ai/)**  
-
-  Open-source Kubernetes delivery platform with a GUI for Helm-based application management, CI/CD, and security scanning.
-
-
-
-- **[Octopus Deploy](https://octopus.com/)**  
-
-  Deployment automation platform with Kubernetes support for managing releases across environments.
-
-
-
-- **[Cloudsmith](https://cloudsmith.io/)**  
-
-  Universal package management with OCI/Docker registry support for hosting Helm charts and Kubernetes artifacts.
-
-
-
-- **[JFrog Artifactory](https://jfrog.com/artifactory/)**  
-
-  Universal artifact repository manager supporting Helm chart repositories and OCI registries for Kubernetes package distribution.
-
-
-
-- **[Harbor](https://goharbor.io/)**  
-
-  Open-source cloud native registry with Helm chart repository support and OCI artifact management.
-
-
-
-- **[Glasskube Cloud](https://glasskube.dev/cloud)**  
-
-  Managed offering for Glasskube with private packages, security alerts, and advanced GitOps integrations (in development) .
+| # | Product | Description | Pricing (starting tier) | Free Tier / Free Trial Limits |
+|---|---------|-------------|--------------------------|-------------------------------|
+| 1 | **[Argo CD](https://argo-cd.readthedocs.io/)** (managed: [Akuity](https://akuity.io/pricing)) | Declarative GitOps continuous delivery for Kubernetes — the de facto GitOps standard, with a rich UI and multi-cluster support. | **Akuity Pro: $495/month** (1 Argo CD instance, 50 apps, unlimited clusters & users; extra pack of 10 apps + 10 stages = $99/month). Self-hosted Argo CD: **$0** (Apache-2.0). | **30-day free trial** of Akuity Pro (ToS allows 14+ days; quota: 1 instance, 50 apps, 50 stages — no credit card). **Free forever:** self-hosted Argo CD with **no cap** on clusters/apps/users. |
+| 2 | **[Flux CD](https://fluxcd.io/)** (commercial support: [ControlPlane](https://fluxcd.control-plane.io/pricing/)) | GitOps toolkit from the CNCF with a modular controller-based architecture; the original GitOps operator and direct competitor to Argo CD. | **No official SaaS.** ControlPlane Enterprise for Flux starts at **$1,250/month billed annually** (up to 1 production cluster / 10 nodes; next tier $6,250/month, then $10,500/month). | **Free forever:** self-hosted Flux (Apache-2.0, CNCF Graduated) — unlimited clusters/repos, community best-effort support; dev & staging clusters included free on paid plans too. |
+| 3 | **[Devtron](https://devtron.ai/pricing)** | Open-source Kubernetes delivery platform with a GUI for Helm-based app management, CI/CD, and security scanning. | **Starter: $999/month** (up to 500 vCPUs, 50 users, 5 clusters); **Growth: $2,000/month** (1,500 vCPUs, 75 users, 10 clusters); OSS Plus $499/month; Enterprise Plus custom. | **Freemium — free forever:** up to **50 vCPUs, 10 users, 1 cluster**, no credit card required. SaaS-managed plan adds a **30-day trial**. |
+| 4 | **[Octopus Deploy](https://octopus.com/pricing/overview)** | Deployment automation platform with Kubernetes support for managing releases across environments. | **Professional: $104/project/year**; **Enterprise: $156/project/year**; tenants & machines $77 each/year. Octopus Cloud platform fee from **$2,250/year** (5 tasks); Pro bundle **$4,330/year for 20 projects**. | **Free forever (no time limit):** **10 projects, 10 tenants, 10 machines, 10 users** with full RBAC + SSO (Cloud free instances need 1 deployment/runbook every 60 days). **30-day trial** of full Enterprise features. |
+| 5 | **[Cloudsmith](https://cloudsmith.io/pricing)** | Universal package management with OCI/Docker registry support for hosting Helm charts and Kubernetes artifacts. | **Core: $0/month**; **Pro: $149/month**; Ultra & Enterprise: custom-quoted (not publicly listed). | **Core — free forever:** public package hosting at $0; **OSS-eligible repos get 50 GB artifact storage + 200 GB package delivery free** (attribution required). |
+| 6 | **[JFrog Artifactory](https://jfrog.com/artifactory/)** (vendor: [JFrog Ltd.](https://jfrog.com/pricing/)) | Universal artifact repository manager supporting Helm chart repositories and OCI registries for Kubernetes package distribution. | **JFrog Cloud Pro: $50/month for the first year** ($150/month standard, 25 GB included); **Enterprise X: from $950/month** (125 GB); Enterprise+: custom. | **14-day free trial** of JFrog Cloud (no credit card; Pro quota 25 GB base, billed usage extra). **Free forever:** self-managed **Artifactory OSS** (Apache-2.0) — $0 licence, no storage/egress quota (you size the hardware; HA, replication & advanced security are Pro-only). |
+| 7 | **[Harbor](https://goharbor.io/)** (managed third-party: [Stellar Hosted](https://www.stellarhosted.com/harbor/)) | Open-source cloud native registry with Helm chart repository support and OCI artifact management. | **No official Harbor SaaS.** Self-hosted: **$0 licence** (Apache-2.0, you pay infra). Closest managed option: Stellar Hosted **Standard €49/month** (1 vCPU, 2 GB RAM, 25 GB storage), Premium €99/month. | **Free forever:** self-hosted Harbor (CNCF Graduated) with **no user, repo or project caps**. Managed hosting offers a **14-day free trial** (no payment details, no user limit, quotas per plan hardware above). |
+| 8 | **[Glasskube Cloud](https://glasskube.dev/cloud)** | Managed offering for Glasskube with private packages, security alerts, and advanced GitOps integrations (in development). | **No paid tier published yet** — Cloud is in public preview; self-hosted Glasskube is **$0** (Apache-2.0). | **Free during the public beta** — non-production clusters only (cloud quota limits not yet published). **Free forever:** self-hosted OSS package manager — unlimited packages/clusters, community support. |
 
 
 
