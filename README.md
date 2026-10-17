@@ -8,7 +8,7 @@
 
 <!--
   SEO keywords: kubernetes package manager, kubernetes package management tools, helm charts, helm alternatives, helm vs kustomize, gitops tools, argo cd, flux cd, kubernetes deployment tools, kubernetes CI/CD, OCI registry, yaml templating, kubernetes SaaS pricing, awesome list 2026
-  Description: The largest curated Kubernetes packaging & GitOps list — 27+ open-source repositories with live GitHub star badges, plus 8 SaaS platforms compared on starting price, free-tier limits and company size.
+  Description: The largest curated Kubernetes packaging & GitOps list — 27+ open-source repositories with live GitHub Stars_Badges, plus 8 SaaS platforms compared on starting price, free-tier limits and company size.
   Canonical: github.com/ishandutta2007/Awesome-Kubernetes-Package-Management
 -->
 
@@ -24,7 +24,7 @@
 
 
 
-The best **Kubernetes package management** tools in one place — notable **SaaS platforms** and **open-source projects** that template, package, distribute, and deploy applications to Kubernetes. Use it to compare **Helm vs Kustomize**, CUE-powered Helm alternatives such as Timoni, YAML-overlay tools, and GitOps-native delivery frameworks like Argo CD and Flux — with pricing, free-tier limits and GitHub stars side by side.
+The best **Kubernetes package management** tools in one place — notable **SaaS platforms** and **open-source projects** that template, package, distribute, and deploy applications to Kubernetes. Use it to compare **Helm vs Kustomize**, CUE-powered Helm alternatives such as Timoni, YAML-overlay tools, and GitOps-native delivery frameworks like Argo CD and Flux — with pricing, free-tier limits and GitHub_Stars side by side.
 
 
 
@@ -86,7 +86,7 @@ Contributions welcome! Open an PR to add/update entries. Keep descriptions factu
 
 ## 🌟 Open-Source GitHub Projects
 
-*Sorted by GitHub star count ⭐ (descending). Every entry carries a live star badge that links straight to that repository's stargazers page — counts refreshed automatically by shields.io.*
+*Sorted by GitHub Stars_Count ⭐ (descending). Every entry carries a live Stars_Badge that links straight to that repository's stargazers page — counts refreshed automatically by shields.io.*
 
 - [![helm/helm stars](https://img.shields.io/github/stars/helm/helm?style=social&color=white)](https://github.com/helm/helm/stargazers) **[Helm](https://github.com/helm/helm)**  
 
