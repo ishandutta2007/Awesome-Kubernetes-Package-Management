@@ -56,6 +56,8 @@ Contributions welcome! Open an PR to add/update entries. Keep descriptions factu
 
 - 📈 [Star History](#star-history)
 
+- 🙏 [Support](#support)
+
 
 
 ## 💼 SaaS/Hosted Platforms
@@ -242,6 +244,21 @@ Star the repo if you find it useful!
 ## 📈 Star History
 
 [![Star History Chart](https://star-history.dera.page/svg?repos=ishandutta2007/Awesome-Kubernetes-Package-Management&type=date&legend=top-left)](https://star-history.dera.page/#ishandutta2007/Awesome-Kubernetes-Package-Management&type=date&legend=top-left)
+
+
+
+## 🙏 Support
+
+**Thank you for reading this list** — if it saved you research time, please consider giving back:
+
+- ⭐ **Star** this repository — it takes one click and helps more platform engineers find it.
+- 🍴 **Fork** it and open a **Pull Request** whenever you spot a tool worth adding or correcting.
+- 📤 **Share** it with your team, in Slack/Discord channels, or on social media.
+- ☕ **Buy me a coffee** — fuel the curation work through the [GitHub Sponsor Dashboard](https://github.com/sponsors/ishandutta2007).
+
+<p align="center"><a href="https://github.com/sponsors/ishandutta2007"><img src="https://img.shields.io/badge/Buy%20me%20a%20coffee-Sponsor%20Dashboard-ff69b4?style=for-the-badge&logo=githubsponsors&logoColor=white" alt="Buy me a coffee — GitHub Sponsor Dashboard" /></a></p>
+
+<a href="https://github.com/sponsors/ishandutta2007"><img alt="Sponsor" src="https://img.shields.io/github/sponsors/ishandutta2007?label=Sponsor&color=ff69b4" /></a>
 
 
 
