@@ -32,6 +32,8 @@ Contributions welcome! Open an PR to add/update entries. Keep descriptions factu
 
 - [SaaS/Hosted Platforms](#saas-hosted-platforms)
 
+  - [Sector Overview & Market Dynamics](#sector-overview--market-dynamics)
+
 - [Open-Source GitHub Projects](#open-source-github-projects)
 
 - [How to Contribute](#how-to-contribute)
@@ -41,6 +43,14 @@ Contributions welcome! Open an PR to add/update entries. Keep descriptions factu
 
 
 ## SaaS/Hosted Platforms
+
+### Sector Overview & Market Dynamics
+
+**Sector:** Kubernetes packaging, templating & GitOps delivery.
+
+💰 **Estimated market size:** the underlying Kubernetes market is **~$2.57B in 2025**, forecast **$8.41B by 2031** (Mordor Intelligence); the GitOps segment alone is **~$1.86B in 2025**, heading to **$8.48B by 2034** (TrendX Insights), while the adjacent CI/CD tooling market — into which these packages feed — is **~$13.2B in 2026**, forecast **$22.9B by 2033** (Persistence Market Research). These are overlapping estimates, not additive.
+
+🧭 **Market structure: moderately fragmented — not winner-take-all.** Several strong vendors co-exist and are commonly mixed inside one organisation (Helm for third-party charts, Kustomize for first-party manifests, Argo CD *and* Flux for GitOps), and CI adoption is spread across GitHub Actions (33%), Jenkins (28%) and GitLab CI (19%) rather than collapsing onto a single platform. Helm is the de-facto standard *inside* the packaging niche, but no single vendor captures the whole delivery stack.
 
 | # | Product | Company Size (latest disclosed revenue / valuation / funding) | Description | Pricing (starting tier) | Free Tier / Free Trial Limits |
 |---|---------|---------------------------------------------------------------|-------------|--------------------------|-------------------------------|
