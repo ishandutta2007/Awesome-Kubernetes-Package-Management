@@ -68,99 +68,115 @@ Contributions welcome! Open an PR to add/update entries. Keep descriptions factu
 
 ## Open-Source GitHub Projects
 
+*Sorted by GitHub star count ⭐ (descending). Every entry carries a live star badge that links straight to that repository's stargazers page — counts refreshed automatically by shields.io.*
 
+- [![helm/helm stars](https://img.shields.io/github/stars/helm/helm?style=social&color=white)](https://github.com/helm/helm/stargazers) **[Helm](https://github.com/helm/helm)**  
 
-- **[Helm](https://github.com/helm/helm)**  
+  **The de facto Kubernetes package manager** — CNCF Graduated, the category leader (30,000+ stars). Uses Go templates and `values.yaml` to generate Kubernetes manifests from reusable "charts." Supports chart repositories (HTTP/OCI), release tracking, rollbacks, hooks, and dependency management. The standard for installing third-party software like Prometheus, NGINX Ingress, and cert-manager.
 
-  **The de facto Kubernetes package manager** — 28,000+ stars, CNCF Graduated. Uses Go templates and `values.yaml` to generate Kubernetes manifests from reusable "charts." Supports chart repositories (HTTP/OCI), release tracking, rollbacks, hooks, and dependency management. The standard for installing third-party software like Prometheus, NGINX Ingress, and cert-manager .
+- [![argoproj/argo-cd stars](https://img.shields.io/github/stars/argoproj/argo-cd?style=social&color=white)](https://github.com/argoproj/argo-cd/stargazers) **[Argo CD](https://github.com/argoproj/argo-cd)**  
 
+  **GitOps continuous delivery** — CNCF Graduated, the dominant GitOps tool. Declarative, Git-based deployment with auto-sync, drift detection, multi-cluster management, and a rich UI.
 
+- [![GoogleContainerTools/skaffold stars](https://img.shields.io/github/stars/GoogleContainerTools/skaffold?style=social&color=white)](https://github.com/GoogleContainerTools/skaffold/stargazers) **[Skaffold](https://github.com/GoogleContainerTools/skaffold)**  
 
-- **[Kustomize](https://github.com/kubernetes-sigs/kustomize)**  
+  **Continuous development for Kubernetes** — handles building, pushing, and deploying applications with a single `skaffold dev` command. Supports Helm, Kustomize, and raw YAML as deployment renderers. Excellent for local development inner-loop.
 
-  **Template-free configuration customization** — built into `kubectl` since v1.14. Uses `kustomization.yaml` overlays to patch base YAML without modifying originals. No templating language to learn; ideal for environment promotion (base → dev → staging → production). Native GitOps integration .
+- [![kubernetes-sigs/kustomize stars](https://img.shields.io/github/stars/kubernetes-sigs/kustomize?style=social&color=white)](https://github.com/kubernetes-sigs/kustomize/stargazers) **[Kustomize](https://github.com/kubernetes-sigs/kustomize)**  
 
+  **Template-free configuration customization** — built into `kubectl` since v1.14. Uses `kustomization.yaml` overlays to patch base YAML without modifying originals. No templating language to learn; ideal for environment promotion (base → dev → staging → production). Native GitOps integration.
 
+- [![crossplane/crossplane stars](https://img.shields.io/github/stars/crossplane/crossplane?style=social&color=white)](https://github.com/crossplane/crossplane/stargazers) **[Crossplane](https://github.com/crossplane/crossplane)**  
 
-- **[Carvel (ytt, kapp, kbld, imgpkg)](https://github.com/carvel-dev/carvel)**  
+  **Declarative infrastructure provisioning as Kubernetes resources** — exposes clouds and services as Kubernetes APIs, so platform teams can package and version infrastructure alongside application packages. Complements package management for full platform automation.
 
-  **The "Swiss Army Knife" of Kubernetes configuration** — a set of single-purpose, composable tools. `ytt` provides YAML-structure-aware templating with Starlark (Python-like) instead of text substitution; `kapp` deploys resources as a single application with change-set previews; `kbld` resolves images to immutable digests; `imgpkg` bundles config and images as OCI artifacts for air-gapped environments. Apache 2.0 licensed .
+- [![kubernetes/kompose stars](https://img.shields.io/github/stars/kubernetes/kompose?style=social&color=white)](https://github.com/kubernetes/kompose/stargazers) **[Kompose](https://github.com/kubernetes/kompose)** *new*  
 
+  **Docker Compose → Kubernetes converter** — translates `docker-compose.yaml` straight into Kubernetes manifests and services (`kompose convert`, `kompose up`): the fastest packaging on-ramp for teams migrating legacy Compose stacks.
 
+- [![bitnami/charts stars](https://img.shields.io/github/stars/bitnami/charts?style=social&color=white)](https://github.com/bitnami/charts/stargazers) **[Bitnami Charts](https://github.com/bitnami/charts)** *new*  
 
-- **[Timoni](https://github.com/stefanprodan/timoni)**  
+  **The most used public Helm chart catalog** — thousands of production-ready, continuously rebuilt charts for databases, middleware and infrastructure (Bitnami, part of Broadcom), consumable over HTTP or OCI.
 
-  **Helm alternative powered by CUE** — 1,300+ stars, Apache 2.0. Uses CUE's type safety, code generation, and validation instead of Go templates mixed with YAML. Modules distributed as OCI artifacts (signable with Cosign), server-side apply, staged resource application, CRD templating and upgrades (which Helm ignores), and health checks on custom resources. Still in active development with potentially breaking API changes .
-
-
-
-- **[Glasskube](https://github.com/glasskube/glasskube)**  
-
-  **Homebrew/npm-style package manager for Kubernetes** — YC-backed, aims to make deploying, updating, and configuring packages 20x faster than Helm. Type-safe package configurations via UI or interactive CLI, safe package updates pre-tested by Glasskube, GitOps integration (all packages are custom resources), and dependency management. Apache 2.0 licensed .
-
-
-
-- **[Skaffold](https://github.com/GoogleContainerTools/skaffold)**  
-
-  **Continuous development for Kubernetes** — handles building, pushing, and deploying applications with a single `skaffold dev` command. Supports Helm, Kustomize, and raw YAML as deployment renderers. Excellent for local development inner-loop .
-
-
-
-- **[Tilt](https://github.com/tilt-dev/tilt)**  
+- [![tilt-dev/tilt stars](https://img.shields.io/github/stars/tilt-dev/tilt?style=social&color=white)](https://github.com/tilt-dev/tilt/stargazers) **[Tilt](https://github.com/tilt-dev/tilt)**  
 
   **Local development environment for Kubernetes** — smart rebuilds, live updates, and a UI showing service health. Accelerates inner-loop development for microservices.
 
+- [![fluxcd/flux2 stars](https://img.shields.io/github/stars/fluxcd/flux2?style=social&color=white)](https://github.com/fluxcd/flux2/stargazers) **[Flux CD](https://github.com/fluxcd/flux2)**  
 
+  **GitOps toolkit** — CNCF Graduated, modular controller-based architecture. Supports Helm Controller, Kustomize Controller, and source controllers for Git/OCI/Helm repositories.
 
-- **[Garden](https://github.com/garden-io/garden)**  
+- [![kubevela/kubevela stars](https://img.shields.io/github/stars/kubevela/kubevela?style=social&color=white)](https://github.com/kubevela/kubevela/stargazers) **[KubeVela](https://github.com/kubevela/kubevela)** *new*  
 
-  **Automation for Kubernetes development and testing** — uses a declarative config to define stacks, with smart caching and dependency-aware builds.
+  **Application delivery platform built on the Open Application Model (OAM)** — packages repeatable application definitions and deploy-time policies as reusable components, so the same app package runs the same way on every cluster.
 
+- [![kubernetes-sigs/krew stars](https://img.shields.io/github/stars/kubernetes-sigs/krew?style=social&color=white)](https://github.com/kubernetes-sigs/krew/stargazers) **[Krew](https://github.com/kubernetes-sigs/krew)** *new*  
 
+  **Homebrew for `kubectl`** — the package manager for kubectl plugins: discover, install and upgrade cross-platform command extensions from a searchable index of 100+ plugins.
 
-- **[Argo CD](https://github.com/argoproj/argo-cd)**  
-
-  **GitOps continuous delivery** — CNCF Graduated, the dominant GitOps tool. Declarative, Git-based deployment with auto-sync, drift detection, multi-cluster management, and a rich UI .
-
-
-
-- **[Flux CD](https://github.com/fluxcd/flux2)**  
-
-  **GitOps toolkit** — CNCF Graduated, modular controller-based architecture. Supports Helm Controller, Kustomize Controller, and source controllers for Git/OCI/Helm repositories .
-
-
-
-- **[kapp-controller (Carvel)](https://github.com/carvel-dev/kapp-controller)**  
-
-  **Continuous delivery and package management for Kubernetes** — captures application deployment workflows in an App CRD, enabling GitOps-style continuous delivery with Carvel tools .
-
-
-
-- **[Kubeapps](https://github.com/vmware-tanzu/kubeapps)**  
+- [![vmware-tanzu/kubeapps stars](https://img.shields.io/github/stars/vmware-tanzu/kubeapps?style=social&color=white)](https://github.com/vmware-tanzu/kubeapps/stargazers) **[Kubeapps](https://github.com/vmware-tanzu/kubeapps)**  
 
   **Web-based UI for deploying and managing Helm charts and Carvel packages** in Kubernetes clusters. Browse catalogs, deploy with custom values, and manage releases.
 
+- [![garden-io/garden stars](https://img.shields.io/github/stars/garden-io/garden?style=social&color=white)](https://github.com/garden-io/garden/stargazers) **[Garden](https://github.com/garden-io/garden)**  
 
+  **Automation for Kubernetes development and testing** — uses a declarative config to define stacks, with smart caching and dependency-aware builds.
 
-### Additional Strong Open-Source Options
+- [![glasskube/glasskube stars](https://img.shields.io/github/stars/glasskube/glasskube?style=social&color=white)](https://github.com/glasskube/glasskube/stargazers) **[Glasskube](https://github.com/glasskube/glasskube)**  
 
+  **Homebrew/npm-style package manager for Kubernetes** — YC-backed, aims to make deploying, updating, and configuring packages 20x faster than Helm. Type-safe package configurations via UI or interactive CLI, safe package updates pre-tested by Glasskube, GitOps integration (all packages are custom resources), and dependency management. Apache 2.0 licensed.
 
+- [![oras-project/oras stars](https://img.shields.io/github/stars/oras-project/oras?style=social&color=white)](https://github.com/oras-project/oras/stargazers) **[ORAS](https://github.com/oras-project/oras)** *new*  
 
-- **[kpt](https://github.com/GoogleContainerTools/kpt)** — Kubernetes package toolkit with KRM Functions for declarative configuration management .
+  **OCI Registry As Storage** — CLI and Go libraries for storing non-container artifacts (Helm charts, SBOMs, signatures, config) in any OCI registry. The reference client behind the "push charts as OCI artifacts" pattern.
 
-- **[KubeVela](https://github.com/kubevela/kubevela)** — Application delivery platform with OAM-based abstractions for defining and deploying apps.
+- [![stefanprodan/timoni stars](https://img.shields.io/github/stars/stefanprodan/timoni?style=social&color=white)](https://github.com/stefanprodan/timoni/stargazers) **[Timoni](https://github.com/stefanprodan/timoni)**  
 
-- **[Crossplane](https://github.com/crossplane/crossplane)** — Declarative infrastructure provisioning as Kubernetes resources; complements package management for infrastructure automation.
+  **Helm alternative powered by CUE** — Apache 2.0. Uses CUE's type safety, code generation, and validation instead of Go templates mixed with YAML. Modules distributed as OCI artifacts (signable with Cosign), server-side apply, staged resource application, CRD templating and upgrades (which Helm ignores), and health checks on custom resources. Still in active development with potentially breaking API changes.
 
-- **[Kubernetes Operators](https://operatorhub.io/)** — OperatorHub catalogs hundreds of Kubernetes Operators that extend the API for application-specific lifecycle management.
+- [![GoogleContainerTools/kpt stars](https://img.shields.io/github/stars/GoogleContainerTools/kpt?style=social&color=white)](https://github.com/GoogleContainerTools/kpt/stargazers) **[kpt](https://github.com/GoogleContainerTools/kpt)**  
 
-- **[Sherpack](https://github.com/alegeay/sherpack)** — Helm-like package manager with Jinja2 templating, written in Rust. Features `lookup()` for reading cluster state, idempotent secret generation, and superior CRD management (templated CRDs, managed/shared/external policies) .
+  **Kubernetes package toolkit** — package, distribute, and apply versioned configuration bundles using KRM Functions for declarative customization, diffing and upstream updates.
 
-- **[app2kube](https://github.com/n0madic/app2kube)** — Generates production-ready manifests from a minimal app definition with safe-by-default hardening (security contexts, probes, resource baselines) .
+- [![operator-framework/operator-lifecycle-manager stars](https://img.shields.io/github/stars/operator-framework/operator-lifecycle-manager?style=social&color=white)](https://github.com/operator-framework/operator-lifecycle-manager/stargazers) **[Operator Lifecycle Manager (OLM)](https://github.com/operator-framework/operator-lifecycle-manager)** *new*  
 
-- **[octoploy](https://pypi.org/project/octoploy/)** — Simple templating engine with folder-based app definitions, variable inheritance, and configmap file watching .
+  **The package manager for Kubernetes Operators** — installs, versions, upgrades and resolves dependencies of Operators via CSVs and operator catalogs; the engine behind OperatorHub.io and OpenShift's Operatorhub.
 
-- **[frank-cli](https://github.com/schnauzersoft/frank-cli)** — Stateless, packageless, template-driven Kubernetes management with Jinja and HCL templating .
+- [![helm/chart-testing stars](https://img.shields.io/github/stars/helm/chart-testing?style=social&color=white)](https://github.com/helm/chart-testing/stargazers) **[Helm chart-testing (`ct`)](https://github.com/helm/chart-testing)** *new*  
+
+  **CI linter for Helm charts** — validates chart structure, linting (`helm lint`), YAML syntax and installs charts into a kind cluster; the de-facto gate for chart repositories in CI.
+
+- [![helm/chart-releaser stars](https://img.shields.io/github/stars/helm/chart-releaser?style=social&color=white)](https://github.com/helm/chart-releaser/stargazers) **[chart-releaser](https://github.com/helm/chart-releaser)** *new*  
+
+  **Publishes Helm charts as GitHub Releases and regenerates `index.yaml`** — the standard way to host a versioned chart repository on GitHub Pages.
+
+- [![carvel-dev/carvel stars](https://img.shields.io/github/stars/carvel-dev/carvel?style=social&color=white)](https://github.com/carvel-dev/carvel/stargazers) **[Carvel (ytt, kapp, kbld, imgpkg)](https://github.com/carvel-dev/carvel)**  
+
+  **The "Swiss Army Knife" of Kubernetes configuration** — a set of single-purpose, composable tools. `ytt` provides YAML-structure-aware templating with Starlark (Python-like) instead of text substitution; `kapp` deploys resources as a single application with change-set previews; `kbld` resolves images to immutable digests; `imgpkg` bundles config and images as OCI artifacts for air-gapped environments. Apache 2.0 licensed.
+
+- [![carvel-dev/kapp-controller stars](https://img.shields.io/github/stars/carvel-dev/kapp-controller?style=social&color=white)](https://github.com/carvel-dev/kapp-controller/stargazers) **[kapp-controller (Carvel)](https://github.com/carvel-dev/kapp-controller)**  
+
+  **Continuous delivery and package management for Kubernetes** — captures application deployment workflows in an App CRD, enabling GitOps-style continuous delivery with Carvel tools.
+
+- [![k8s-operatorhub/community-operators stars](https://img.shields.io/github/stars/k8s-operatorhub/community-operators?style=social&color=white)](https://github.com/k8s-operatorhub/community-operators/stargazers) **[OperatorHub / Community Operators](https://github.com/k8s-operatorhub/community-operators)**  
+
+  The catalog behind [operatorhub.io](https://operatorhub.io/) — **hundreds of community-maintained Kubernetes Operators** packaged for installation and lifecycle management.
+
+- [![davidgiga1993/octoploy stars](https://img.shields.io/github/stars/davidgiga1993/octoploy?style=social&color=white)](https://github.com/davidgiga1993/octoploy/stargazers) **[octoploy](https://github.com/davidgiga1993/octoploy)**  
+
+  Simple templating engine with folder-based app definitions, variable inheritance, and configmap file watching — also on [PyPI](https://pypi.org/project/octoploy/).
+
+- [![n0madic/app2kube stars](https://img.shields.io/github/stars/n0madic/app2kube?style=social&color=white)](https://github.com/n0madic/app2kube/stargazers) **[app2kube](https://github.com/n0madic/app2kube)**  
+
+  Generates production-ready manifests from a minimal app definition with safe-by-default hardening (security contexts, probes, resource baselines).
+
+- [![alegeay/sherpack stars](https://img.shields.io/github/stars/alegeay/sherpack?style=social&color=white)](https://github.com/alegeay/sherpack/stargazers) **[Sherpack](https://github.com/alegeay/sherpack)**  
+
+  Helm-like package manager with Jinja2 templating, written in Rust. Features `lookup()` for reading cluster state, idempotent secret generation, and superior CRD management (templated CRDs, managed/shared/external policies).
+
+- [![schnauzersoft/frank-cli stars](https://img.shields.io/github/stars/schnauzersoft/frank-cli?style=social&color=white)](https://github.com/schnauzersoft/frank-cli/stargazers) **[frank-cli](https://github.com/schnauzersoft/frank-cli)**  
+
+  Stateless, packageless, template-driven Kubernetes management with Jinja and HCL templating.
 
 
 
