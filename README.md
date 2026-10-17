@@ -4,6 +4,8 @@
   <img src="assets/banner.svg" alt="Awesome Kubernetes Package Management — Helm, GitOps and Kubernetes delivery tools banner" width="100%">
 </p>
 
+<table><tr><td align="left"><a href="https://github.com/ishandutta2007/Awesome-Awesome-Awesome"><img src="https://img.shields.io/badge/Awesome-%E2%9C%94-blueviolet?style=flat-square&logo=github" alt="Awesome"/></a><a href="https://discord.gg/jc4xtF58Ve"><img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" /></a></td><td align="right"><a href="https://github.com/ishandutta2007"><img alt="GitHub followers" src="https://img.shields.io/github/followers/ishandutta2007?label=Follow" /></a></td></tr></table>
+
 <!--
   SEO keywords: kubernetes package manager, kubernetes package management tools, helm charts, helm alternatives, helm vs kustomize, gitops tools, argo cd, flux cd, kubernetes deployment tools, kubernetes CI/CD, OCI registry, yaml templating, kubernetes SaaS pricing, awesome list 2026
   Description: The largest curated Kubernetes packaging & GitOps list — 27+ open-source repositories with live GitHub star badges, plus 8 SaaS platforms compared on starting price, free-tier limits and company size.
