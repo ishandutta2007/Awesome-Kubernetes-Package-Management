@@ -54,6 +54,8 @@ Contributions welcome! Open an PR to add/update entries. Keep descriptions factu
 
 - ⚠️ [Disclaimer](#disclaimer)
 
+- 📈 [Star History](#star-history)
+
 
 
 ## 💼 SaaS/Hosted Platforms
@@ -234,6 +236,12 @@ Star the repo if you find it useful!
 - Self-hosted solutions require Kubernetes operational expertise, proper RBAC configuration, and regular security updates.
 
 - Helm's Go template + YAML combination is powerful but can become complex; Kustomize's overlay approach is simpler but lacks dependency management and rollback features .
+
+
+
+## 📈 Star History
+
+[![Star History Chart](https://star-history.dera.page/svg?repos=ishandutta2007/Awesome-Kubernetes-Package-Management&type=date&legend=top-left)](https://star-history.dera.page/#ishandutta2007/Awesome-Kubernetes-Package-Management&type=date&legend=top-left)
 
 
 
