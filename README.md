@@ -8,7 +8,7 @@
 
 <!--
   SEO keywords: kubernetes package manager, kubernetes package management tools, helm charts, helm alternatives, helm vs kustomize, gitops tools, argo cd, flux cd, kubernetes deployment tools, kubernetes CI/CD, OCI registry, yaml templating, kubernetes SaaS pricing, awesome list 2026
-  Description: The largest curated Kubernetes packaging & GitOps list — 27+ open-source repositories with live GitHub Stars_Badges, plus 8 SaaS platforms compared on starting price, free-tier limits and company size.
+  Description: The largest curated Kubernetes packaging & GitOps list — 27+ open-source repositories with live GitHub_Stars_Badges, plus 8 SaaS platforms compared on starting price, free-tier limits and company size.
   Canonical: github.com/ishandutta2007/Awesome-Kubernetes-Package-Management
 -->
 
@@ -86,7 +86,7 @@ Contributions welcome! Open an PR to add/update entries. Keep descriptions factu
 
 ## 🌟 Open-Source GitHub Projects
 
-*Sorted by GitHub Stars_Count ⭐ (descending). Every entry carries a live Stars_Badge that links straight to that repository's stargazers page — counts refreshed automatically by shields.io.*
+*Sorted by GitHub_Stars_Count ⭐ (descending). Every entry carries a live Stars_Badge that links straight to that repository's stargazers page — counts refreshed automatically by shields.io.*
 
 - [![helm/helm stars](https://img.shields.io/github/stars/helm/helm?style=social&color=white)](https://github.com/helm/helm/stargazers) **[Helm](https://github.com/helm/helm)**  
 
